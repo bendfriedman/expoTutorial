@@ -1,5 +1,5 @@
-import { Tabs } from "expo-router";
 import Ionicons from "@expo/vector-icons/Ionicons";
+import { Tabs } from "expo-router";
 
 export default function TabsLayout() {
   return (
@@ -11,6 +11,7 @@ export default function TabsLayout() {
           backgroundColor: "#25292e",
         },
         headerShadowVisible: false,
+        headerTitleAlign: "center",
         headerTintColor: "#fff",
         tabBarStyle: {
           backgroundColor: "#25292e",
