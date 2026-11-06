@@ -5,8 +5,10 @@
   "dependencies": {
     "@expo/ui": "~57.0.22",
     "@expo/vector-icons": "^15.0.2",
+    "@rnmapbox/maps": "^10.3.17",
     "expo": "~57.0.27",
     "expo-constants": "~57.0.21",
+    "expo-dev-client": "~57.0.21",
     "expo-device": "~57.0.2",
     "expo-font": "~57.0.4",
     "expo-glass-effect": "~57.0.4",

@@ -23,7 +23,11 @@ export default function TabsLayout() {
         options={{
           headerTitle: "Sticker Smash",
           tabBarIcon: ({ focused, color }) => (
-            <Ionicons name={focused ? "home-sharp" : "home-outline"} color={color} size={24} />
+            <Ionicons
+              name={focused ? "home-sharp" : "home-outline"}
+              color={color}
+              size={24}
+            />
           ),
         }}
       />
@@ -32,7 +36,26 @@ export default function TabsLayout() {
         options={{
           headerTitle: "About",
           tabBarIcon: ({ focused, color }) => (
-            <Ionicons name={focused ? "information-circle" : "information-circle-outline"} color={color} size={24} />
+            <Ionicons
+              name={
+                focused ? "information-circle" : "information-circle-outline"
+              }
+              color={color}
+              size={24}
+            />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="map"
+        options={{
+          headerTitle: "Map",
+          tabBarIcon: ({ focused, color }) => (
+            <Ionicons
+              name={focused ? "map" : "map-outline"}
+              color={color}
+              size={24}
+            />
           ),
         }}
       />
